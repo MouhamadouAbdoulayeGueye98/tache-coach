@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header0{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+.little0{
+    color: rgb(240, 87, 31);
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+.menu1{
+    text-decoration: none;
+    color: rgb(170, 165, 165);
+}
+.red{
+    text-decoration: none;
+    color: rgb(202, 84, 84);
+    border-bottom: 1px solid rgb(102, 102, 241);
+}
+
+.partie1{
+    padding-left: 3rem;
+    padding-top: 15rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    background-image: url(cool-fashion.jpg);
+    background-size: cover;
+    background-position: 100%;
+    height: 30rem;
+    width: 65rem;
+}
+.partie1-h1{
+    font-size: 55px;
+    color: white;
+    padding-bottom: 1rem;
+}
+.partie1-p{
+    font-size: 20px;
+    color: rgb(209, 200, 200);
+}
+button{
+    margin-top: 2rem;
+    background: black;
+    color: white;
+    height: 2rem;
+    width: 14rem;
+    border-radius: 50px;
+    border: none;
+}
+
+.partie2{
+    padding-top: 5rem;
+}
+.partie2-h1{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 35px;
+}
+.h1-little{
+    color:  rgb(240, 87, 31);
+}
+.partie02{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.partie2-img{
+    height: 25rem;
+    width: 35rem;
+}
+.partie2-p1{
+    line-height: 30px;
+    color: #9f9f9f;
+    padding-top: 1rem;
+}
+.partie2-p2{
+    line-height: 35px;
+    color: rgb(194, 185, 185);
+}
+.intro{
+    border-left: 1px solid black;
+    height: 7rem;
+    padding-left: 1.5rem;
+}
+.intro-h3{
+    color: rgb(202, 84, 84);
+}
+
+.partie3{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.partie3-img{
+    height: 35rem;
+    width: 40rem;
+}
+.partie03{
+    background: #f1f5fe;
+    padding-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+.explo{
+    font-size: 13px;
+}
+
+.partie4{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.partie04{
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.featu{
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.partie4-img{
+    height: 20rem;
+    border-radius: 5px;
+}
+.tree{
+    display: flex;
+    gap: 2rem;
+}
+.partie4-img1{
+    height: 20rem;
+    width: 15rem;
+    border-radius: 5px;
+}
+.tree1{
+    display: flex;
+    gap: 6rem;
+}
+.partie4-img2{
+    height: 20rem;
+    width: 15.5rem;
+    border-radius: 5px;
+}
+.tree2{
+    display: flex;
+    gap: 5.5rem;
+}
+.view{
+    /* border-bottom: 1px solid #9f9f9f; */
+    text-align: center;
+    /* padding-bottom: 3rem; */
+}
+.hr{
+    border: 1px solid #9f9f9f;
+    width: 10rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    background: black;
+    color: #9f9f9f;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.blanc{
+    color: white;
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .partie1{
+        padding-left: 3rem;
+        padding-top: 0;
+        margin-top: 4rem;
+        margin-left: 0;
+        width: 100%;
+        padding-top: 10rem;
+    }
+    .partie02{
+        display: flex;
+        flex-direction: column;
+    }
+    .good{
+        text-align: center;
+    }
+    .intro{
+        margin-left: 5rem;
+    }
+    .partie2-img{
+        width: 100%;
+    }
+    .partie3{
+        display: flex;
+        flex-direction: column;
+    }
+    .partie3-img{
+        width: 100%;
+    }
+    .partie04{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .header0{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .menu{
+        padding-left: 2rem;
+    }
+    .br{
+        display: none;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1000px) {
+    .partie1{
+        padding-left: 3rem;
+        padding-top: 15rem;
+        margin-top: 4rem;
+        margin-left: 0;
+        height: 30rem;
+        width: 100%;
+    }
+    .partie04{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    .partie02{
+        display: flex;
+        flex-direction: column;
+    }
+    .good{
+        text-align: center;
+    }
+    .intro{
+        margin-left: 5rem;
+    }
+    .partie2-img{
+        width: 90%;
+    }
+}
